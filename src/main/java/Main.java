@@ -15,7 +15,6 @@ public class Main {
         System.out.println("Podaj offset: ");
         int insertINT = scannerINT.nextInt();
         Cezar.setN(insertINT);
-        Cezar.encrypt();
-
+        System.out.println(Cezar.encrypt());
     }
 }
