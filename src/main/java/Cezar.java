@@ -2,18 +2,20 @@ public class Cezar {
 
     String text;
     int n;
-    String encrypted;
+    String encrypted = "";
 
-    public String setText(String insert){
-        return text;
+    public void setText(String insert){
+        text = text;
     }
-    public int setN(int insertINT){
-        return n;
+    public void setN(int insertINT){
+        n = n;
     }
 
     public void encrypt(){
-        for(int i=0; i<text.length(); i++){
+        for(int i=0; i<=text.length(); i++){
             char a = (char) (text.charAt(i)+n);
+            if (a>'Z')
+                a-=26;
             encrypted += a;
         }
     }
