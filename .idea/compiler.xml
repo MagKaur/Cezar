@@ -9,5 +9,8 @@
         <module name="Cezar" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cezar" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
