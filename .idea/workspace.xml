@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ea27871-2182-4407-8ca0-4489c77e5400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="78636ed2-8146-4f2d-a31e-a7abe42e44aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CezarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cezar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cezar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cezar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cezar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -24,8 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1sDStIED7qdxyAvKrMhmSqU20mJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1sDvRgDqa0M1xiEk6P8uDIro8YR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CezarTest.ifencrypted">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Cezar" />
@@ -56,8 +50,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CezarTest.ifencrypted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="METHOD_NAME" value="ifencrypted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CezarTest.ifencrypted" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -65,12 +70,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ea27871-2182-4407-8ca0-4489c77e5400" name="Default Changelist" comment="" />
-      <created>1620405886582</created>
+      <changelist id="78636ed2-8146-4f2d-a31e-a7abe42e44aa" name="Default Changelist" comment="" />
+      <created>1620419970539</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620405886582</updated>
-      <workItem from="1620405890636" duration="4861000" />
+      <updated>1620419970539</updated>
+      <workItem from="1620419972655" duration="948000" />
     </task>
     <servers />
   </component>
