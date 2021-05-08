@@ -28,22 +28,25 @@ public class Cezar {
     }
 
 
-    public void encrypt(){
-        for(int i=0; i<text.length(); i++){
-            char a = (char) (text.charAt(i)+n);
-            if (a >'Z') {
+    public void encrypt() {
 
-                a -= 26;
-            }
+        for (int i = 0; i < text.length(); i++) {
+            char a = text.charAt(i);
+                if (a >= 'a' && a <='z')
+                    a = (char) (text.charAt(i) + n);
+                    if (a > 'z') {
+                        a -= 26;
+                    }
+                encrypted += a;
 
-            encrypted += a;
         }
     }
+        public void show() {
+            System.out.println(encrypted);
+        }
 
-    public void show (){
-        System.out.println(encrypted);
+
     }
 
 
-}
 
