@@ -27,24 +27,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Cezar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,8 +114,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Cezar" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.Cezar" />
     </list>
     <recent_temporary>
       <list>
@@ -144,7 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1620476584325</updated>
       <workItem from="1620476586349" duration="160000" />
-      <workItem from="1620476757587" duration="5298000" />
+      <workItem from="1620476757587" duration="5450000" />
+      <workItem from="1620489599877" duration="667000" />
     </task>
     <servers />
   </component>

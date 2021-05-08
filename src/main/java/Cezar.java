@@ -37,6 +37,12 @@ public class Cezar {
                     if (a > 'z') {
                         a -= 26;
                     }
+                   if (a >= '1' && a <= '9'){
+                       a = (char) (text.charAt(i) + n);
+                       if (a > '9'){
+                           a -=9;
+                       }
+                   }
                 encrypted += a;
 
         }
