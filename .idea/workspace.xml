@@ -7,6 +7,8 @@
     <list default="true" id="e451e91c-be25-4955-b6db-f79875705715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cezar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cezar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CezarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CezarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +31,60 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CezarTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Cezar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CezarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CezarTest.ifNumbersEncrypted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="METHOD_NAME" value="ifNumbersEncrypted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CezarTest.ifNumbersHigherThan9Looped" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="METHOD_NAME" value="ifNumbersHigherThan9Looped" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CezarTest.ifNumbersWithSpacesENcrypted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="METHOD_NAME" value="ifNumbersWithSpacesENcrypted" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +166,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Maven.Cezar" />
+      <item itemvalue="JUnit.CezarTest.ifNumbersEncrypted" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.CezarTest.ifNumbersHigherThan9Looped" />
+      <item itemvalue="JUnit.CezarTest.ifNumbersWithSpacesENcrypted" />
+      <item itemvalue="JUnit.CezarTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CezarTest" />
+        <item itemvalue="JUnit.CezarTest.ifNumbersWithSpacesENcrypted" />
+        <item itemvalue="JUnit.CezarTest.ifNumbersHigherThan9Looped" />
+        <item itemvalue="JUnit.CezarTest.ifNumbersEncrypted" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -133,7 +193,7 @@
       <updated>1620476584325</updated>
       <workItem from="1620476586349" duration="160000" />
       <workItem from="1620476757587" duration="5450000" />
-      <workItem from="1620489599877" duration="667000" />
+      <workItem from="1620489599877" duration="4900000" />
     </task>
     <servers />
   </component>
@@ -151,5 +211,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CezarTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

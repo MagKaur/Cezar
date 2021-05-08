@@ -7,20 +7,14 @@ public class Cezar {
 
 
     public void setText(String insert){
-        this.text = insert;
+
+        String insertlow = insert.toLowerCase();
+        this.text = insertlow;
     }
     public void setN(int insertINT){
         this.n = insertINT;
     }
 
-
-    public String getText(){
-        return text;
-    }
-
-    public int getN(){
-      return n;
-    }
 
     public String getEncrypted (){
         System.out.println(encrypted);
@@ -32,15 +26,18 @@ public class Cezar {
 
         for (int i = 0; i < text.length(); i++) {
             char a = text.charAt(i);
-                if (a >= 'a' && a <='z')
+                if (a >= 'a' && a <='z') {
                     a = (char) (text.charAt(i) + n);
+
                     if (a > 'z') {
                         a -= 26;
                     }
-                   if (a >= '1' && a <= '9'){
-                       a = (char) (text.charAt(i) + n);
-                       if (a > '9'){
-                           a -=9;
+                }
+                if (a >= '0' && a <= '9') {
+                    a = (char) (text.charAt(i) + n);
+
+                        if (a > '9'){
+                           a -= 10;
                        }
                    }
                 encrypted += a;

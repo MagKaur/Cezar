@@ -9,7 +9,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj wiadomość do zaszyfrowania: ");
-        String insert = scanner.nextLine().toLowerCase();
+        String insert = scanner.nextLine();
         cezar.setText(insert);
         Scanner scannerINT = new Scanner(System.in);
         System.out.println("Podaj klucz: ");
