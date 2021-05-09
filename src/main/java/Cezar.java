@@ -5,6 +5,7 @@ public class Cezar {
     private String encrypted = "";
 
 
+    public Cezar() {}
 
     public void setText(String insert){
 
@@ -17,7 +18,7 @@ public class Cezar {
 
 
     public String getEncrypted (){
-        System.out.println(encrypted);
+
         return encrypted;
     }
 

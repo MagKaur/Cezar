@@ -1,3 +1,4 @@
+/*
 import java.util.Locale;
 import java.util.Scanner;
 public class Main {
@@ -19,6 +20,9 @@ public class Main {
 
         cezar.encrypt();
         cezar.show();
-        /*cezar.getEncrypted();*/
+        */
+/*cezar.getEncrypted();*//*
+
     }
 }
+*/

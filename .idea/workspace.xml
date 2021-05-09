@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e451e91c-be25-4955-b6db-f79875705715" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test Results - CezarTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cezar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cezar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CezarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CezarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Mango\Desktop\Inżynier WSTI (AEH)\Informatyka sem VI\Projektowanie systemów informatycznych\Lab 5" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,23 +34,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="JUnit.CezarTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Cezar" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -55,6 +56,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CezarTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CezarTest.ifLoopedForHigherThanZ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cezar" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CezarTest" />
+      <option name="METHOD_NAME" value="ifLoopedForHigherThanZ" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +177,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Cezar" />
+      <item itemvalue="JUnit.CezarTest.ifLoopedForHigherThanZ" />
       <item itemvalue="JUnit.CezarTest.ifNumbersEncrypted" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CezarTest.ifNumbersHigherThan9Looped" />
       <item itemvalue="JUnit.CezarTest.ifNumbersWithSpacesENcrypted" />
+      <item itemvalue="Maven.Cezar" />
       <item itemvalue="JUnit.CezarTest" />
     </list>
     <recent_temporary>
@@ -179,7 +190,7 @@
         <item itemvalue="JUnit.CezarTest.ifNumbersWithSpacesENcrypted" />
         <item itemvalue="JUnit.CezarTest.ifNumbersHigherThan9Looped" />
         <item itemvalue="JUnit.CezarTest.ifNumbersEncrypted" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CezarTest.ifLoopedForHigherThanZ" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +204,8 @@
       <updated>1620476584325</updated>
       <workItem from="1620476586349" duration="160000" />
       <workItem from="1620476757587" duration="5450000" />
-      <workItem from="1620489599877" duration="4900000" />
+      <workItem from="1620489599877" duration="8899000" />
+      <workItem from="1620543151413" duration="121000" />
     </task>
     <servers />
   </component>
@@ -212,15 +224,13 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CezarTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifNumbersEncrypted.ic" NAME="CezarTest.ifNumbersEncrypted Coverage Results" MODIFIED="1620505007109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifNumbersWithSpacesENcrypted.ic" NAME="CezarTest.ifNumbersWithSpacesENcrypted Coverage Results" MODIFIED="1620505269824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest.ic" NAME="CezarTest Coverage Results" MODIFIED="1620503995844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifLettersWithSPacesEncrypted.ic" NAME="CezarTest.ifLettersWithSPacesEncrypted Coverage Results" MODIFIED="1620504659900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifLettersEncrypted.ic" NAME="CezarTest.ifLettersEncrypted Coverage Results" MODIFIED="1620504816589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifNumbersHigherThan9Looped.ic" NAME="CezarTest.ifNumbersHigherThan9Looped Coverage Results" MODIFIED="1620505172519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Cezar$CezarTest_ifLoopedForHigherThanZ.ic" NAME="CezarTest.ifLoopedForHigherThanZ Coverage Results" MODIFIED="1620504911718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
